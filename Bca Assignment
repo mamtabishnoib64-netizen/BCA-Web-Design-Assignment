@@ -1,0 +1,43 @@
+WEB DEVELOPMENT
+UNIT-1
+Question-1
+Design the journey of a web request: create a neat flow diagram showing what happens when a user enter a website URL on a browser. Explain DNS, browser HTTP request, web server, HTTP response and page rendering in the correct sequence.
+When a user enters a website URL in a web browser, several processes take place before the webpage is displayed.
+Explanation-
+1) User enters URL: First, the user enters a website address in the browser, such as www.beta.com⁠�.
+2) Browser: The browser understands the URL and start finding the requested website.
+3) DNS: DNS converts the website name into its IP address. This helps the browser to find the correct server.
+4) HTTP Request: The browser sends a request to the web server for the required webpage.
+5) Web server: The web server receives the request and finds the required files or information.
+6) HTTP response: The server sends the requested data back to the browser along with a response status.
+7) Page Rendering: The browser processes the HTML, CSS and JavaScript and shows the webpage on the screen.
+Flow Diagram:
+User Enters URL → Browser → DNS lookup → IP Address of web server → HTTP request → HTTP response → Browser receives the response → Page Rendering
+Question-2
+Internet vs WWW- explain with a real-life example: differentiate the Internet and world wide web. Then use a real-life example such as an online university portal to explain which parts are internet infrastructure and which parts are web services.
+While often used interchangeably, the internet and the world wide web are entirely different technologies.
+One Difference
+• The Internet: The physical infrastructure.
+It is a massive global network of connected computers, cables, routers, and data centers.
+• The WWW: A service that runs on top of the internet. It is a collection of multimedia pages, documents and web services linked together by hyperlinks.
+Real-life Example - Online University Portal
+Imagine a university website like https://uni-portal.edu⁠�. Here is how it divides into internet infrastructure and web services.
+Internet Infrastructure
+• The physical servers: The heavy machines sitting in the university IT department or a cloud data center holding all the student files.
+• Network cables & Wi-Fi: The campus fiber-optic cables and routers that physically transmit your data packets.
+• IP Address: The unique numbers assigned to your laptop and the university server so they can locate each other over the network.
+Web Services
+• Student Dashboard: The interactive HTML web pages where you view your profile, grades, and announcements.
+• Online Assignments submission: A web tool (script) that lets you upload a PDF file directly to a professor's digital folder via your browser.
+• Course Registration API: A web system that handles payment transactions securely and instantly updates the university course database when you enroll.
+Question-3
+HTTPS status code detective: prepare a table explaining at least eight important HTTP status codes, including 200, 301, 302, 400, 401, 403, 404 and 500. For each code, create one realistic situation in which a user may see it.
+HTTP status codes are three-digit responses sent by a web server to tell a browser how a request was handled.
+Status Code
+Meaning
+Realistic User Situation
+200 OK
+The request succeeded.
+You type google.com into your browser, and the homepage loads quickly and completely.
+301 Moved permanently
+The URL has changed forever.
